@@ -1,0 +1,2 @@
+export type Robot={id:string;name:string;model:string;serial_number:string;firmware:string;status:string;battery:number;x:number;y:number;orientation:number;velocity:number;temperature:number;latency:number;packet_loss:number;current_mission?:string;heartbeat:string;uptime_hours:number;errors:number;fault?:string;health_score?:number};
+export type Mission={id:string;name:string;robot_id?:string;customer:string;start:string;destination:string;priority:string;status:string;progress:number;distance:number;created_at:string;events?:{at:string;message:string}[]};

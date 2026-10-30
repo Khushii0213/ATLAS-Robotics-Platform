@@ -1,0 +1,9 @@
+{
+  "name": "atlas-mission-control",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev":"vite","build":"tsc -b && vite build","test":"vitest run"},
+  "dependencies": {"@vitejs/plugin-react":"latest","vite":"latest","typescript":"latest","react":"latest","react-dom":"latest","react-router-dom":"latest","lucide-react":"latest","recharts":"latest","framer-motion":"latest","zustand":"latest","react-hook-form":"latest","zod":"latest"},
+  "devDependencies": {"vitest":"latest","@testing-library/react":"latest","@testing-library/jest-dom":"latest","@types/react":"latest","@types/react-dom":"latest","jsdom":"latest"}
+}
